@@ -27,8 +27,8 @@ app.post("/create_preference", (req, res) => {
         ],
         //a que paginas redirigir si hay exito o falla
         back_urls: {
-            "success": "http://localhost:5173",
-            "failure": "http://localhost:5173",
+            "success": "https://guido-pits.vercel.app/",
+            "failure": "https://guido-pits.vercel.app/",
             "pending": ""
         },
         auto_return: "approved",
