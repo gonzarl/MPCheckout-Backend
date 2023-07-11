@@ -14,7 +14,7 @@ app.get("/", function (req, res) {
     res.send("Server is running :)");
 });
 
-app.post("/create_preference", (req, res) => {
+app.post("/create_preference", cors(), (req, res) => {
 
     let preference = {
         items: [
