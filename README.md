@@ -8,3 +8,6 @@ Mini proyecto que hice buscando aprender como integrar un pago con MercadoPago a
 4. Crear un archivo .env
 5. Poner el Access Token de la siguiente forma: `MERCADO_PAGO_ACCESS_TOKEN = "<TU_TOKEN>"`
 6. Correr el servidor localmente de la siguiente forma: `node index.js`
+
+# Frontend
+Para poder probar que funciono correctamente te invito a [visitar el repositorio para el cliente](https://github.com/gonzarl/MPCheckout-Frontend).
