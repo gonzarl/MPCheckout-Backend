@@ -8,7 +8,6 @@ mercadopago.configure({
     access_token: process.env.MERCADO_PAGO_ACCESS_TOKEN,
 });
 
-
 app.use(express.json());
 app.use(cors());
 app.get("/", function (req, res) {
