@@ -26,8 +26,8 @@ app.post("/create_preference", cors(), (req, res) => {
         ],
         //a que paginas redirigir si hay exito o falla
         back_urls: {
-            "success": "https://guido-pits.vercel.app/",
-            "failure": "https://guido-pits.vercel.app/",
+            "success": "http://localhost:5173/",
+            "failure": "http://localhost:5173/",
             "pending": ""
         },
         auto_return: "approved",
@@ -43,8 +43,6 @@ app.post("/create_preference", cors(), (req, res) => {
         });
 });
 
-// app.listen(8080, () => {
-//     console.log("The server is now running on Port 8080");
-// });
-
-module.exports = app;
+app.listen(8080, () => {
+    console.log("The server is now running on Port 8080");
+});
